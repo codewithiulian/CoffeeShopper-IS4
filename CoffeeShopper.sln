@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{BB1D5C47-B8E5-415E-B574-5B863C3C9D81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{BB1D5C47-B8E5-415E-B574-5B863C3C9D81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{5F3ACE22-A150-4E68-93AB-2A89D56D8B68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{5F3ACE22-A150-4E68-93AB-2A89D56D8B68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{5CE2D17E-37D0-4124-B4B7-6A1FE2292454}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{5CE2D17E-37D0-4124-B4B7-6A1FE2292454}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{E4F3BB54-B032-44D0-9CA8-174C6E685223}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5CE2D17E-37D0-4124-B4B7-6A1FE2292454}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CE2D17E-37D0-4124-B4B7-6A1FE2292454}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CE2D17E-37D0-4124-B4B7-6A1FE2292454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F3BB54-B032-44D0-9CA8-174C6E685223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F3BB54-B032-44D0-9CA8-174C6E685223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F3BB54-B032-44D0-9CA8-174C6E685223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F3BB54-B032-44D0-9CA8-174C6E685223}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
