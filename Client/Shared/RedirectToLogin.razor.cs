@@ -14,7 +14,7 @@ namespace Client.Shared
 
 		protected override async Task OnInitializedAsync()
 		{
-			Navigation.NavigateTo("/login", true);
+			Navigation.NavigateTo($"/login?redirectUri={Uri.EscapeDataString(Navigation.Uri)}", true);
 		}
 	}
 }
