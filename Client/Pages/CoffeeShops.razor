@@ -1,0 +1,28 @@
+﻿@page "/coffeeshops"
+@attribute [Authorize]
+
+<h3>Shops</h3>
+
+<div class="row">
+    @if (Shops.Any())
+    {
+        @foreach (var shop in Shops)
+        {
+            <div class="col-6 col-sm-12 col-md-6 col-lg-4 col-xl-4 mh-25 mb-4">
+                <div class="card shadow-sm rounded">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>@shop.Name</b></h5>
+                        <p class="card-text">@shop.Address</p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <span>Open: @shop.OpeningHours</span>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p>No coffees available</p>
+    }
+</div>
